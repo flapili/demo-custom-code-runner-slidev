@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev ./slides.md --log=info --inspect",
+    "export": "slidev export",
+    "export-notes": "slidev export-notes"
+  },
+  "devDependencies": {
+    "@slidev/theme-default": "^0.25.0",
+    "@slidev/theme-seriph": "^0.25.0",
+    "nodemon": "^3.1.2"
+  },
+  "dependencies": {
+    "@slidev/cli": "link:..\\slidev\\packages\\slidev",
+    "@slidev/types": "link:..\\slidev\\packages\\types"
+  }
+}
